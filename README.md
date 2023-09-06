@@ -40,7 +40,7 @@ Obtive uma Acurácia melhor, mas o resultado de avaliação na competição foi 
 - Realizar validação cruzada para avaliar o desempenho em diferentes divisões dos dados.
 - Tunar os hiperparâmetros cuidadosamente para encontrar a melhor combinação.
 - Coletar mais dados, se possível, para melhorar a generalização do modelo. <br>
-Nesse caso optei por **não usar Deep Learning**
+Nesse caso optei por **não usar Deep Learning**, pois não teria como conseguir *mais dados para treino*, e toda ***tentativa de evitar Overffiting poderia ser muito trabalhosa e entregar o mesmo resultado final.***
 ****Parte 3 Resultado no analyticsvidhya:  0.722222222222222**
 
   ### Resultado Final
@@ -53,3 +53,8 @@ Nesse caso optei por **não usar Deep Learning**
 
 **Mesmo o modelo dl(deep learning) tendo acurácia melhor, optei por usar o modelo de Regressão Logística, pois foi mais constante, não sofreu overffiting e teve resultado melhor no analyticsvidhya**
 ### Regressão Logística *Acurácia*: 0.753165 , *Resultado no analyticsvidhya*: 0.743055555555556
+
+### Deploy
+Fiz um deploy simples, na minha máquina local;
+Utilizei o *Streamlit* para fazer o deploy, crei um arquivo *Joblib* do melhor modelo e carreguei no *Streamlit*;
+Nesse modelo, o usuário tem as caixas de diálogo para preencher e um botão para gerar o resultado baseado no treinamento que o modelo teve.
