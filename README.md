@@ -9,52 +9,52 @@ A empresa deseja automatizar o processo de elegibilidade do empréstimo (em temp
 
 ### Métricas de Avaliação, Modelos e Tratamento dos Dados;
 
-[Na parte 1 do projeto](https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte1.ipynb), foi onde fiz os tratamentos de: **valores nulos, tipo das colunas e encoding**,
-Utilizei os modelos de *árvore de decisão, Regressão Logística e KNeighborsClassifier* e usei **método de validaçao cruzada no melhor modelo em todas as partes do projeto**
-Foi Utilizado as métricas de avaliação: ***Acurácia e Matriz de confusão***
-obtive os seguintes resultados de **acurácia:**
-0	Modelo Árvore	0.669951
-1	Modelo Knn	0.600985
-2	Modelo Regressão	0.724138
-**Parte 1 Resultado no analyticsvidhya:  0.743055555555556**
+[Na parte 1 do projeto](https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte1.ipynb), foi onde fiz os tratamentos de: **valores nulos, tipo das colunas e encoding**,<br>
+Utilizei os modelos de *árvore de decisão, Regressão Logística e KNeighborsClassifier* e usei **método de validaçao cruzada no melhor modelo em todas as partes do projeto**<br>
+Foi Utilizado as métricas de avaliação: ***Acurácia e Matriz de confusão***<br>
+obtive os seguintes resultados de **acurácia:**<br>
+0	Modelo Árvore	0.669951<br>
+1	Modelo Knn	0.600985<br>
+2	Modelo Regressão	0.724138<br>
+**Parte 1 Resultado no analyticsvidhya:  0.743055555555556**<br>
  
-[Na parte 2 do projeto](https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte2.ipynb), foi onde tratei os **Outliers**,
-Obtive **melhora** na Acurácia nos modelos de **Árvore e Regressão**, no *Knn tive um desempenho inferior.*
+[Na parte 2 do projeto](https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte2.ipynb), foi onde tratei os **Outliers**,<br>
+Obtive **melhora** na Acurácia nos modelos de **Árvore e Regressão**, no *Knn tive um desempenho inferior.*<br>
 
-Modelo	        inicial   Outliers
-0	Modelo Árvore	0.669951	0.677215
-1	Modelo Knn	  0.600985	0.575949
-2	 Regressão	  0.724138  0.753165
+Modelo	        inicial   Outliers<br>
+0	Modelo Árvore	0.669951	0.677215<br>
+1	Modelo Knn	  0.600985	0.575949<br>
+2	 Regressão	  0.724138  0.753165<br>
 
-Apesar de melhorar a Acurácia nos modelos, o resultado no analyticsvidhya  foi o mesmo.
-**Parte 2 Resultado no analyticsvidhya:  0.743055555555556**
+Apesar de melhorar a Acurácia nos modelos, o resultado no analyticsvidhya  foi o mesmo.<br>
+**Parte 2 Resultado no analyticsvidhya:  0.743055555555556**<br>
 
-[Na parte 3 do projeto](https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte3.ipynb), foi onde testei um modelo de **Deep Learning**,
-Obtive uma Acurácia melhor, mas o resultado de avaliação na competição foi inferior, isso pode ter ocorrido porque o modelo sofreu um *Overffiting**,
-*Isso aconteceu, porque minha base de treino é muito pequena, ela é composta por 614 linhas,*
-**Exemplos de métodos para evitar Overffiting do  modelo:**
+[Na parte 3 do projeto](https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte3.ipynb), foi onde testei um modelo de **Deep Learning**,<br>
+Obtive uma Acurácia melhor, mas o resultado de avaliação na competição foi inferior, isso pode ter ocorrido porque o modelo sofreu um *Overffiting**,<br>
+*Isso aconteceu, porque minha base de treino é muito pequena, ela é composta por 614 linhas,*<br>
+**Exemplos de métodos para evitar Overffiting do  modelo:**<br>
 
-- Aumentar o tamanho do conjunto de dados de treinamento, se possível.
-- Simplificar a arquitetura do modelo, reduzindo o número de camadas ou unidades.
-- Aplicar técnicas de regularização, como dropout, L1 ou L2 regularization.
-- Realizar validação cruzada para avaliar o desempenho em diferentes divisões dos dados.
-- Tunar os hiperparâmetros cuidadosamente para encontrar a melhor combinação.
+- Aumentar o tamanho do conjunto de dados de treinamento, se possível.<br>
+- Simplificar a arquitetura do modelo, reduzindo o número de camadas ou unidades.<br>
+- Aplicar técnicas de regularização, como dropout, L1 ou L2 regularization.<br>
+- Realizar validação cruzada para avaliar o desempenho em diferentes divisões dos dados.<br>
+- Tunar os hiperparâmetros cuidadosamente para encontrar a melhor combinação.<br>
 - Coletar mais dados, se possível, para melhorar a generalização do modelo. <br>
-Nesse caso optei por **não usar Deep Learning**, pois não teria como conseguir *mais dados para treino*, e toda ***tentativa de evitar Overffiting poderia ser muito trabalhosa e entregar o mesmo resultado final.***
-****Parte 3 Resultado no analyticsvidhya:  0.722222222222222**
+Nesse caso optei por **não usar Deep Learning**, pois não teria como conseguir *mais dados para treino*, e toda ***tentativa de evitar Overffiting poderia ser muito trabalhosa e entregar o mesmo resultado final.***<br>
+****Parte 3 Resultado no analyticsvidhya:  0.722222222222222**<br>
 
   ### Resultado Final
 
-  Modelo	          Acurácia
-0	Modelo Árvore	    0.677215
-1	Modelo Knn	      0.575949
-2	Modelo Regressão	0.753165
-3	modelo_dl	        0.781250
+  Modelo	          Acurácia<br>
+0	Modelo Árvore	    0.677215<br>
+1	Modelo Knn	      0.575949<br>
+2	Modelo Regressão	0.753165<br>
+3	modelo_dl	        0.781250<br>
 
-**Mesmo o modelo dl(deep learning) tendo acurácia melhor, optei por usar o modelo de Regressão Logística, pois foi mais constante, não sofreu overffiting e teve resultado melhor no analyticsvidhya**
-### Regressão Logística *Acurácia*: 0.753165 , *Resultado no analyticsvidhya*: 0.743055555555556
+**Mesmo o modelo dl(deep learning) tendo acurácia melhor, optei por usar o modelo de Regressão Logística, pois foi mais constante, não sofreu overffiting e teve resultado melhor no analyticsvidhya**<br>
+### Regressão Logística *Acurácia*: 0.753165 , *Resultado no analyticsvidhya*: 0.743055555555556<br>
 
 ### Deploy
-Fiz um deploy simples, na minha máquina local;
-Utilizei o *Streamlit* para fazer o deploy, crei um arquivo *Joblib* do melhor modelo e carreguei no *Streamlit*;
-Nesse modelo, o usuário tem as caixas de diálogo para preencher e um botão para gerar o resultado baseado no treinamento que o modelo teve.
+Fiz um deploy simples, na minha máquina local;<br>
+Utilizei o *Streamlit* para fazer o deploy, crei um arquivo *Joblib* do melhor modelo e carreguei no *Streamlit*;<br>
+Nesse modelo, o usuário tem as caixas de diálogo para preencher e um botão para gerar o resultado baseado no treinamento que o modelo teve.<br>
