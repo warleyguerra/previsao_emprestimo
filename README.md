@@ -1,5 +1,5 @@
 # previsao_imprestimo
-## Criado a partir de uma competição do analyticsvidhya
+## Criado a partir de uma competição do AnalyticsVidhya
 
 ### Descrição
 
