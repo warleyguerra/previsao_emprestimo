@@ -1,19 +1,24 @@
 # previsao_imprestimo
 ## Criado a partir de uma competição do Kaggle
 
+### Descricção
+
 A empresa Dream Housing Finance lida com todos os tipos de empréstimos à habitação. Eles estão presentes em todas as áreas urbanas, semi-urbanas e rurais. O cliente primeiro solicita um empréstimo à habitação e depois a empresa valida a elegibilidade do cliente para o empréstimo.
 
 A empresa deseja automatizar o processo de elegibilidade do empréstimo (em tempo real) com base nos detalhes do cliente fornecidos durante o preenchimento do formulário de inscrição on-line. Esses detalhes são sexo, estado civil, escolaridade, número de dependentes, renda, valor do empréstimo, histórico de crédito e outros. Para automatizar esse processo, eles forneceram um conjunto de dados para identificar os segmentos de clientes elegíveis para o valor do empréstimo, para que possam atingir especificamente esses clientes.
 
-[Na parte 1 do projeto] (https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte1.ipynb), foi onde fiz os tratamentos de: **valores nulos, tipo das colunas e encoding**,
+### Métricas de Avaliação, Modelos e Tratamento dos Dados;
+
+[Na parte 1 do projeto](https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte1.ipynb), foi onde fiz os tratamentos de: **valores nulos, tipo das colunas e encoding**,
 Utilizei os modelos de *árvore de decisão, Regressão Logística e KNeighborsClassifier* e usei **método de validaçao cruzada no melhor modelo em todas as partes do projeto**
+Foi Utilizado as métricas de avaliação: ***Acurácia e Matriz de confusão***
 obtive os seguintes resultados de **acurácia:**
 0	Modelo Árvore	0.669951
 1	Modelo Knn	0.600985
 2	Modelo Regressão	0.724138
 **Parte 1 Resultado no analyticsvidhya:  0.743055555555556**
  
-[Na parte 2 do projeto] (https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte2.ipynb), foi onde tratei os **Outliers**,
+[Na parte 2 do projeto](https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte2.ipynb), foi onde tratei os **Outliers**,
 Obtive **melhora** na Acurácia nos modelos de **Árvore e Regressão**, no *Knn tive um desempenho inferior.*
 
 Modelo	        inicial   Outliers
@@ -24,7 +29,7 @@ Modelo	        inicial   Outliers
 Apesar de melhorar a Acurácia nos modelos, o resultado no analyticsvidhya  foi o mesmo.
 **Parte 2 Resultado no analyticsvidhya:  0.743055555555556**
 
-[Na parte 3 do projeto] (https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte3.ipynb), foi onde testei um modelo de **Deep Learning**,
+[Na parte 3 do projeto](https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte3.ipynb), foi onde testei um modelo de **Deep Learning**,
 Obtive uma Acurácia melhor, mas o resultado de avaliação na competição foi inferior, isso pode ter ocorrido porque o modelo sofreu um *Overffiting**,
 *Isso aconteceu, porque minha base de treino é muito pequena, ela é composta por 614 linhas,*
 **Exemplos de métodos para evitar Overffiting do  modelo:**
