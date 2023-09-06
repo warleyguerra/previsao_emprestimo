@@ -1,7 +1,7 @@
 # previsao_imprestimo
 ## Criado a partir de uma competição do Kaggle
 
-### Descricção
+### Descrição
 
 A empresa Dream Housing Finance lida com todos os tipos de empréstimos à habitação. Eles estão presentes em todas as áreas urbanas, semi-urbanas e rurais. O cliente primeiro solicita um empréstimo à habitação e depois a empresa valida a elegibilidade do cliente para o empréstimo.
 
