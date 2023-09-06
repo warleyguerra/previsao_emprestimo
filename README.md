@@ -21,10 +21,10 @@ obtive os seguintes resultados de **acurácia:**<br>
 [Na parte 2 do projeto](https://github.com/warleyguerra/previsao_imprestimo/blob/main/Parte2.ipynb), foi onde tratei os **Outliers**,<br>
 Obtive **melhora** na Acurácia nos modelos de **Árvore e Regressão**, no *Knn tive um desempenho inferior.*<br>
 
-Modelo	        inicial   Outliers<br>
-0	Modelo Árvore	0.669951	0.677215<br>
-1	Modelo Knn	  0.600985	0.575949<br>
-2	 Regressão	  0.724138  0.753165<br>
+Modelo	          Outliers<br>
+0	Modelo Árvore		0.677215<br>
+1	Modelo Knn	  	0.575949<br>
+2	 Regressão	   0.753165<br>
 
 Apesar de melhorar a Acurácia nos modelos, o resultado no analyticsvidhya  foi o mesmo.<br>
 **Parte 2 Resultado no analyticsvidhya:  0.743055555555556**<br>
