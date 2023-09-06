@@ -41,7 +41,7 @@ Obtive uma Acurácia melhor, mas o resultado de avaliação na competição foi 
 - Tunar os hiperparâmetros cuidadosamente para encontrar a melhor combinação.<br>
 - Coletar mais dados, se possível, para melhorar a generalização do modelo. <br>
 Nesse caso optei por **não usar Deep Learning**, pois não teria como conseguir *mais dados para treino*, e toda ***tentativa de evitar Overffiting poderia ser muito trabalhosa e entregar o mesmo resultado final.***<br>
-****Parte 3 Resultado no analyticsvidhya:  0.722222222222222**<br>
+**Parte 3 Resultado no analyticsvidhya:  0.722222222222222**<br>
 
   ### Resultado Final
 
