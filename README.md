@@ -1,4 +1,4 @@
-# previsao_imprestimo
+# previsao_emprestimo
 ## Criado a partir de uma competição do AnalyticsVidhya
 
 ### Descrição
