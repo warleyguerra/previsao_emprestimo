@@ -39,7 +39,7 @@ Obtive uma Acurácia melhor, mas o resultado de avaliação na competição foi 
 - Aplicar técnicas de regularização, como dropout, L1 ou L2 regularization.
 - Realizar validação cruzada para avaliar o desempenho em diferentes divisões dos dados.
 - Tunar os hiperparâmetros cuidadosamente para encontrar a melhor combinação.
-- Coletar mais dados, se possível, para melhorar a generalização do modelo.
+- Coletar mais dados, se possível, para melhorar a generalização do modelo. <br>
 Nesse caso optei por **não usar Deep Learning**
 ****Parte 3 Resultado no analyticsvidhya:  0.722222222222222**
 
