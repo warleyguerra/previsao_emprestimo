@@ -58,3 +58,8 @@ Nesse caso optei por **não usar Deep Learning**, pois não teria como conseguir
 Fiz um deploy simples, na minha máquina local;<br>
 Utilizei o *Streamlit* para fazer o deploy, crei um arquivo *Joblib* do melhor modelo e carreguei no *Streamlit*;<br>
 Nesse modelo, o usuário tem as caixas de diálogo para preencher e um botão para gerar o resultado baseado no treinamento que o modelo teve.<br>
+
+
+
+![image](https://github.com/warleyguerra/previsao_emprestimo/assets/92888785/6262edd1-435c-427e-818f-c899a38bbd0b)
+
