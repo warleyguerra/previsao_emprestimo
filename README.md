@@ -60,6 +60,7 @@ Utilizei o *Streamlit* para fazer o deploy, crei um arquivo *Joblib* do melhor m
 Nesse modelo, o usuário tem as caixas de diálogo para preencher e um botão para gerar o resultado baseado no treinamento que o modelo teve.<br>
 
 
+![Deploy](https://github.com/warleyguerra/previsao_emprestimo/assets/92888785/f22e0c7a-902d-4b62-ae9a-c446ce49dccd)
 
-![image](https://github.com/warleyguerra/previsao_emprestimo/assets/92888785/6262edd1-435c-427e-818f-c899a38bbd0b)
+
 
